@@ -21,7 +21,7 @@ class App extends React.Component {
 
     if(todo.name === '')
     {
-        Bootbox.state.alert("write some");
+        alert("write some");
     }
     else{
         
