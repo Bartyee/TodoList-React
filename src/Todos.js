@@ -5,11 +5,14 @@ import FlipMove from 'react-flip-move';
 
 const Todos = ({todolist, deleteTodo}) => {
     const list = todolist.map(todo => {
+        
         return(
+           
+            <li  onClick={() => {deleteTodo(todo.id)}} key={todo.id}><span>{todo.id}</span><p>{todo.name}</p></li>
             
-            <li key={todo.id}><span>{todo.id}</span><p onClick={() => {deleteTodo(todo.id)}}>{todo.name}</p></li>
             
         )
+        
     })
 
     return(
@@ -17,8 +20,11 @@ const Todos = ({todolist, deleteTodo}) => {
         <ul>
         <FlipMove duration={250} easing="ease-out">
             {list}
-            </FlipMove>
+        </FlipMove>
+        
+            
         </ul>
+        
 
         
       

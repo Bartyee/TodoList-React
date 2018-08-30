@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Bartyee.github.io/TodoList-React/public/index.html",
+  "homepage": "https://Bartyee.github.io/TodoList-React/",
   "dependencies": {
     "ajv": "^6.5.3",
     "bootbox": "^4.4.0",
