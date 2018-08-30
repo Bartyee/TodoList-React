@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import AddTodo from './AddTodo';
 import Todos from './Todos.js';
 import './css/index.css';
@@ -16,13 +16,11 @@ class App extends React.Component {
       }
   }
 
-  
-
   addTodo = (todo) => {
 
     if(todo.name === '')
     {
-        alert("write some");
+        alert("You must write something!");
     }
     else{
         
@@ -50,7 +48,7 @@ class App extends React.Component {
         
         
         <div className="container">
-            <Bootbox />
+            
             <div className="todo-app center-align">
                 <h1>Todo's App</h1>
                 <AddTodo addTodo={this.addTodo}/>
@@ -61,21 +59,5 @@ class App extends React.Component {
     )
 }
 }
-
-class Bootbox extends Component{
-    constructor(){
-        super();
-
-        this.state = {
-            window: 'https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js'
-        }
-    }
-
-    render(){
-        return(null)
-    }
-}
-
-
 
 export default App;

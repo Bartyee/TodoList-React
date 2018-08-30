@@ -9,6 +9,8 @@
     "gh-pages": "^1.2.0",
     "move": "^0.4.9",
     "react": "^16.4.2",
+    "react-alert": "^4.0.4",
+    "react-alert-template-basic": "^1.0.0",
     "react-dom": "^16.4.2",
     "react-flip": "0.0.1",
     "react-flip-move": "^3.0.2",

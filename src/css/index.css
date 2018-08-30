@@ -55,3 +55,10 @@ body{
    margin-right: 10px;
    
  }
+
+ .alert-box{
+     background-color: red;
+     width: 250px;
+     height: 100px;
+     text-align: center;
+ }
