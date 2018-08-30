@@ -32,15 +32,15 @@ class AddTodo extends Component {
     render(){
         return(
             <div className="addTodo-form">
-            <div class="row">
-                <form class="col s12">
-                <div class="row">
-                    <div class="input-field col s12">
-                        <textarea onChange={this.handleChange} id="textarea1" value={this.state.name} class="materialize-textarea"></textarea>
-                        <button onClick={this.handleSubmit} class="btn waves-effect waves-light" type="submit" name="action">Add
-                            <i class="material-icons right">send</i>
+            <div className="row">
+                <form className="col s12">
+                <div className="row">
+                    <div className="input-field col s12">
+                        <textarea onChange={this.handleChange} id="textarea1" value={this.state.name} className="materialize-textarea"></textarea>
+                        <button onClick={this.handleSubmit} className="btn waves-effect waves-light" type="submit" name="action">Add
+                            <i className="material-icons right">send</i>
                         </button>
-                        <label for="textarea1">Textarea</label>
+                        <label htmlFor="textarea1">Textarea</label>
                         </div>
                     </div>
                     

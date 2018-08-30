@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import AddTodo from './AddTodo';
 import Todos from './Todos.js';
+import './css/index.css';
 
 
 class App extends React.Component {
